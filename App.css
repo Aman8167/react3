@@ -1,0 +1,44 @@
+.App{
+  display:flex;
+  font-family:'IBM Plex Sana Thai Looped',sans-serif ;
+  
+}
+.body_container{
+  flex:1;
+  background-color: rgb(144, 248, 248);
+  width:12rem;
+}
+.sidebar_container{
+  width:20%;
+  height:100vh;
+  background-color: white;
+  position:sticky;
+  top:0;
+  left:0;
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.sum_group{
+  width:80%;
+  height:25%;
+  border:0px solid white;
+  margin:auto;
+  margin-top: 45px;
+  display:flex;
+}
+.sum_group3{
+  margin-top: 9%;
+  margin-left:24%;
+}
+#button{
+  background-color: aqua;
+  padding:12px;
+ border:rgb(144, 248, 248);
+ color:white;
+ font-size: 12px;
+}
+#button:hover{
+  cursor:pointer;
+  border: 2px solid white;
+}
